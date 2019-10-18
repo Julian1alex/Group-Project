@@ -1,14 +1,95 @@
-*, * ::before, *::after { 
-    box-sizing: inherit;
-}
 
 html { 
     box-sizing: border-box;
     margin: 0;
     padding: 0
 }
-
-body {font-family: sans-serif;}
-
-.oursite {width: 1200px;
+*, * ::before, *::after { 
+    box-sizing: inherit;
 }
+body {font-family: sans-serif;
+margin:0px;
+}
+.oursite {width: 1200px;
+
+}
+.header{
+    
+}
+.navbar{
+    position: fixed;
+    scroll-behavior: smooth;
+    
+    z-index: 1;
+    height:55px;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    align-items: center;
+    width: 100%;
+    background-color: #3d3d3d;
+    background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.navbar a{
+    color:white;
+    font-size: 20px;
+}
+.head img{
+    height: 50px;
+    width:50px;
+    background-color: white;
+    border-radius: 25px;
+    transition: border-radius .4s ease;
+}
+.head img:hover{
+    border-radius: 0px;
+}
+
+/*  ///////////////HEADER VIDEO/////////*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    right: 0;
+    margin-bottom: 500px;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cover{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    min-height:102%;
+    min-width: 100%;
+    z-index: 0;
+    top:55px;
+    
+
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: absolute;
+    bottom: 50%;
+    
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  /* //////////END OF COVER VIDEO//////////*/
+
