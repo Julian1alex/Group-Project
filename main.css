@@ -12,3 +12,47 @@ body {font-family: sans-serif;}
 
 .oursite {width: 1200px;
 }
+
+.footer { display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    background-color: #595959;
+    background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
+}
+
+
+
+h3 {font-family: 'Pattaya';
+    font-size: 30px;
+    background: red;
+    opacity: .8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ p {font-family: 'Pattaya';
+    font-size: 30px; 
+    color: whitesmoke;
+}
+
+#reserve {
+height: 50px;
+width: 80%;
+opacity: .8;
+
+}
+
+#section1 {
+
+justo
+}
+
+#section2 {
+
+    
+}
+
+#section3 {
+
+
+}
